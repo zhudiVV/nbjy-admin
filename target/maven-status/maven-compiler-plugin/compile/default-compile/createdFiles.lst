@@ -1,5 +1,7 @@
 com/nbjy/nbjyadmin/NbjyAdminApplication.class
 META-INF/spring-configuration-metadata.json
+com/nbjy/nbjyadmin/GirlController.class
+com/nbjy/nbjyadmin/GirlRepository.class
 com/nbjy/nbjyadmin/GirlProperties.class
 com/nbjy/nbjyadmin/Girl.class
 com/nbjy/nbjyadmin/HelloController.class
