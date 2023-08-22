@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "girl",
+      "type": "com.nbjy.nbjyadmin.GirlProperties",
+      "sourceType": "com.nbjy.nbjyadmin.GirlProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "girl.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.nbjy.nbjyadmin.GirlProperties"
+    },
+    {
+      "name": "girl.cup-size",
+      "type": "java.lang.String",
+      "sourceType": "com.nbjy.nbjyadmin.GirlProperties"
+    }
+  ],
+  "hints": []
+}
