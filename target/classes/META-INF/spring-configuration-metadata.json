@@ -1,21 +1,66 @@
 {
   "groups": [
     {
+      "name": "admin",
+      "type": "com.nbjy.nbjyadmin.properties.AdminProperties",
+      "sourceType": "com.nbjy.nbjyadmin.properties.AdminProperties"
+    },
+    {
       "name": "girl",
-      "type": "com.nbjy.nbjyadmin.GirlProperties",
-      "sourceType": "com.nbjy.nbjyadmin.GirlProperties"
+      "type": "com.nbjy.nbjyadmin.properties.GirlProperties",
+      "sourceType": "com.nbjy.nbjyadmin.properties.GirlProperties"
+    },
+    {
+      "name": "user",
+      "type": "com.nbjy.nbjyadmin.properties.UserProperties",
+      "sourceType": "com.nbjy.nbjyadmin.properties.UserProperties"
     }
   ],
   "properties": [
     {
+      "name": "admin.id",
+      "type": "java.lang.Integer",
+      "sourceType": "com.nbjy.nbjyadmin.properties.AdminProperties"
+    },
+    {
+      "name": "admin.password",
+      "type": "java.lang.String",
+      "sourceType": "com.nbjy.nbjyadmin.properties.AdminProperties"
+    },
+    {
+      "name": "admin.username",
+      "type": "java.lang.String",
+      "sourceType": "com.nbjy.nbjyadmin.properties.AdminProperties"
+    },
+    {
       "name": "girl.age",
       "type": "java.lang.Integer",
-      "sourceType": "com.nbjy.nbjyadmin.GirlProperties"
+      "sourceType": "com.nbjy.nbjyadmin.properties.GirlProperties"
     },
     {
       "name": "girl.cup-size",
       "type": "java.lang.String",
-      "sourceType": "com.nbjy.nbjyadmin.GirlProperties"
+      "sourceType": "com.nbjy.nbjyadmin.properties.GirlProperties"
+    },
+    {
+      "name": "user.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.nbjy.nbjyadmin.properties.UserProperties"
+    },
+    {
+      "name": "user.id",
+      "type": "java.lang.Integer",
+      "sourceType": "com.nbjy.nbjyadmin.properties.UserProperties"
+    },
+    {
+      "name": "user.name",
+      "type": "java.lang.String",
+      "sourceType": "com.nbjy.nbjyadmin.properties.UserProperties"
+    },
+    {
+      "name": "user.sex",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.nbjy.nbjyadmin.properties.UserProperties"
     }
   ],
   "hints": []

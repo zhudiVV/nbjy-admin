@@ -1,4 +1,4 @@
-package com.nbjy.nbjyadmin;
+package com.nbjy.nbjyadmin.dto;
 
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 

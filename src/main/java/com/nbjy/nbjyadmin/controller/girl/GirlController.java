@@ -1,8 +1,10 @@
-package com.nbjy.nbjyadmin;
+package com.nbjy.nbjyadmin.controller.girl;
 
+import com.nbjy.nbjyadmin.dto.Girl;
+import com.nbjy.nbjyadmin.repository.GirlRepository;
+import com.nbjy.nbjyadmin.service.GirlService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 

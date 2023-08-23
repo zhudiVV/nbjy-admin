@@ -1,4 +1,4 @@
-package com.nbjy.nbjyadmin;
+package com.nbjy.nbjyadmin.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

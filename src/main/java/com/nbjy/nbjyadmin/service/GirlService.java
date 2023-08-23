@@ -1,5 +1,7 @@
-package com.nbjy.nbjyadmin;
+package com.nbjy.nbjyadmin.service;
 
+import com.nbjy.nbjyadmin.dto.Girl;
+import com.nbjy.nbjyadmin.repository.GirlRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
