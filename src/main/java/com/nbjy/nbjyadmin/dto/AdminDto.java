@@ -1,9 +1,12 @@
 package com.nbjy.nbjyadmin.dto;
 
+import lombok.Data;
+
 import javax.persistence.*;
 
 @Entity
 @Table(name = "admin")
+@Data
 public class AdminDto {
     @Id
     @GeneratedValue
