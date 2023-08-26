@@ -2,6 +2,7 @@ package com.nbjy.nbjyadmin.controller;
 
 import com.nbjy.nbjyadmin.dto.AdminDto;
 import com.nbjy.nbjyadmin.service.AdminService;
+import com.nbjy.nbjyadmin.util.JpaResult;
 import com.nbjy.nbjyadmin.util.Result;
 import com.nbjy.nbjyadmin.util.ResultGenerator;
 import lombok.val;
@@ -26,13 +27,13 @@ public class AdminController {
         System.out.println("--------------");
         System.out.println(username);
         System.out.println(password);
-        T o = adminService.getByUserNameAndPassword(username, password);
+        JpaResult o = adminService.getByUserNameAndPassword(username, password);
         System.out.println(o.toString());
 
-        if(o == -1) {
-            return ResultGenerator.genSuccessResult("用户名错误");
+        if(o.getCode() != 0) {
+            return ResultGenerator.genErrorResult(o.getCode(), o.getMessage());
+        } else {
+            return ResultGenerator.genSuccessResult(o.getData());
         }
-
-        return ResultGenerator.genSuccessResult();
     }
 }

@@ -1,3 +1,14 @@
+com/nbjy/nbjyadmin/controller/AdminController.class
 META-INF/spring-configuration-metadata.json
+com/nbjy/nbjyadmin/repository/UsersRepository.class
+com/nbjy/nbjyadmin/dto/AdminDto.class
+com/nbjy/nbjyadmin/util/JpaResult.class
+com/nbjy/nbjyadmin/util/ResultGenerator.class
+com/nbjy/nbjyadmin/dto/Girl.class
+com/nbjy/nbjyadmin/dto/UsersDto.class
+com/nbjy/nbjyadmin/properties/GirlProperties.class
+com/nbjy/nbjyadmin/repository/GirlRepository.class
 com/nbjy/nbjyadmin/HelloController.class
 com/nbjy/nbjyadmin/NbjyAdminApplication.class
+com/nbjy/nbjyadmin/repository/AdminRepository.class
+com/nbjy/nbjyadmin/util/Result.class

@@ -17,18 +17,18 @@ public class AdminService {
     private AdminRepository adminRepository;
 
     @Transactional
-    public List<JpaResult> getByUserNameAndPassword(String userName, String password) {
-        if(adminRepository.findByUsername(userName).size() > 0) {
+    public JpaResult getByUserNameAndPassword(String userName, String password) {
+        if(!adminRepository.findByUsername(userName).isEmpty()) {
             List<AdminDto> o = adminRepository.findByUsernameAndPassword(userName, password);
-            if(o.size() > 0) {
-                return (T) o;
+            if(!o.isEmpty()) {
+                return new JpaResult(0, "success", o);
             } else {
                 // 密码错误
-                return (T) Integer.valueOf(-2);
+                return new JpaResult(-2, "密码错误");
             }
         } else {
             // 用户名错误
-            return new JpaResult(-1, "用户名错误", );
+            return new JpaResult(-1, "用户名错误");
         }
     }
 
