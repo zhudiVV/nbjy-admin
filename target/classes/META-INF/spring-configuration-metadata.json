@@ -43,8 +43,8 @@
       "sourceType": "com.nbjy.nbjyadmin.properties.GirlProperties"
     },
     {
-      "name": "user.age",
-      "type": "java.lang.Integer",
+      "name": "user.birthday",
+      "type": "java.util.Date",
       "sourceType": "com.nbjy.nbjyadmin.properties.UserProperties"
     },
     {
@@ -53,13 +53,13 @@
       "sourceType": "com.nbjy.nbjyadmin.properties.UserProperties"
     },
     {
-      "name": "user.name",
-      "type": "java.lang.String",
+      "name": "user.is-paused",
+      "type": "java.lang.Boolean",
       "sourceType": "com.nbjy.nbjyadmin.properties.UserProperties"
     },
     {
       "name": "user.sex",
-      "type": "java.lang.Boolean",
+      "type": "java.lang.Integer",
       "sourceType": "com.nbjy.nbjyadmin.properties.UserProperties"
     }
   ],

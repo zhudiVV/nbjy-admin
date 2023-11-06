@@ -1,7 +1,10 @@
 package com.nbjy.nbjyadmin.util;
 
+import lombok.Getter;
+
 import java.io.Serializable;
 
+@Getter
 public class Result<T> implements Serializable {
     private int resultCode;
     private String message;
@@ -15,24 +18,12 @@ public class Result<T> implements Serializable {
         this.message = message;
     }
 
-    public int getResultCode() {
-        return resultCode;
-    }
-
     public void setResultCode(int resultCode) {
         this.resultCode = resultCode;
     }
 
-    public String getMessage() {
-        return message;
-    }
-
     public void setMessage(String message) {
         this.message = message;
-    }
-
-    public T getData() {
-        return data;
     }
 
     public void setData(T data) {
